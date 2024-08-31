@@ -43,3 +43,7 @@ TEST(MergeSortTest, HandlesRandomOrder) {
   vector<int> expected = {1, 1, 2, 3, 3, 4, 5, 5, 5, 6, 9};
   EXPECT_EQ(merge_sort(input), expected);
 }
+
+TEST(MergeSortTest, anthing) {
+  EXPECT_FALSE(false);
+}
