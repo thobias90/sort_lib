@@ -1,5 +1,6 @@
 #include "merge-sort.hpp"
 
+vector<int> merge(vector<int> left, vector<int> right);
 vector<int> merge_sort(vector<int> arr) {
   if (arr.size() <= 1) return arr;
   const int mid = arr.size() / 2;
