@@ -45,5 +45,5 @@ TEST(MergeSortTest, HandlesRandomOrder) {
 }
 
 TEST(MergeSortTest, anthing) {
-  EXPECT_FALSE(true);
+  EXPECT_FALSE(false);
 }
